@@ -1,0 +1,36 @@
+{
+  "name": "business-trip-report",
+  "version": "1.0.0",
+  "description": "差旅費報告系統：手機拍照收據自動辨識並填入差勤表單",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "make-admin": "node src/make-admin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinliang0123/BusinessTripReport.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinliang0123/BusinessTripReport/issues"
+  },
+  "homepage": "https://github.com/jinliang0123/BusinessTripReport#readme",
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "exceljs": "^4.4.0",
+    "express": "^5.3.0",
+    "multer": "^2.4.0",
+    "sharp": "^0.35.5",
+    "tesseract.js": "^7.0.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "jszip": "^3.10.2"
+  }
+}
